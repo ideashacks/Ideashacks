@@ -1,1 +1,1 @@
-# Ideashacks
+# Ideashacks Co.
