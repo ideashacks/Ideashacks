@@ -53,8 +53,32 @@
 	<body>
 	<div id="colorlib-page">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-		<?php include 'header.php' ?>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<h1 id="colorlib-logo"><a href="index.html"><img src="images/Ideashacks_logo_white.png"  width="75%" /></a></h1>
+			<nav id="colorlib-main-menu" role="navigation">
+				<ul>
+					<!--<li class="colorlib-active"><a href="/">Home</a></li>-->
+					<li><a href="work.html">Bricollage</a></li>
+					<li><a href="#about">Preamble</a></li>
+					<li><a href="#brands">Brands</a></li>
+					<li><a href="/contact">Contact</a></li>
+					<li><a href="blog.html">Blog</a></li>
+				</ul>
+			</nav>
 
+			<div class="colorlib-footer">
+				<p><small>&copy; <!-- Link back to IdeaShacks can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright <script>document.write(new Date().getFullYear());</script> Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://ideashacks.com" target="_blank">Ideashacks</a> 
+</small></p>
+				<ul>
+					<li><a href="https://www.facebook.com/ideashacks"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<!--<li><a href="/"><i class="icon-instagram"></i></a></li>-->
+					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+		</aside>
 
 		<div id="colorlib-main">
 			<aside id="colorlib-hero" class="js-fullheight">
@@ -128,7 +152,7 @@
 			  	</div>
 			</aside>
 
-			<div class="colorlib-about">
+			<div id="about" class="colorlib-about">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6">
@@ -137,29 +161,51 @@
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="about-desc">
-								<span class="heading-meta">Welcome</span>
+								<span class="heading-meta">Preamble</span>
 								<h2 class="colorlib-heading">Who we are</h2>
 								<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
 								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 							</div>
 							<div class="row padding">
 								<div class="col-md-4 no-gutters animate-box" data-animate-effect="fadeInLeft">
-									<a href="#" class="steps active">
+									<div title="Chose Faridabad to start!">
+										<a href="" alt="" class="steps active">
 										<p class="icon"><span><i class="icon-check"></i></span></p>
-										<h3>We are <br>pasionate</h3>
-									</a>
+										<h3>2016</h3>
+										</a>
+									</div>
 								</div>
 								<div class="col-md-4 no-gutters animate-box" data-animate-effect="fadeInLeft">
-									<a href="#" class="steps">
+									<div title="Took over the whole factory.">
+										<a href="" class="steps">
 										<p class="icon"><span><i class="icon-check"></i></span></p>
-										<h3>Honest <br>Dependable</h3>
-									</a>
+										<h3>2017</h3>
+										</a>
+									</div>
 								</div>
 								<div class="col-md-4 no-gutters animate-box" data-animate-effect="fadeInLeft">
-									<a href="#" class="steps">
+									<div title="Started aligning with local NGOs"><a href="#" class="steps">
 										<p class="icon"><span><i class="icon-check"></i></span></p>
-										<h3>Always <br>Improving</h3>
-									</a>
+										<h3>2018</h3>
+									</a></div>
+								</div>
+								<div class="col-md-4 no-gutters animate-box" data-animate-effect="fadeInLeft">
+									<div title="Start-up meet-up became a property"><a href="#" class="steps active">
+										<p class="icon"><span><i class="icon-check"></i></span></p>
+										<h3>2019</h3>
+									</a></div>
+								</div>
+								<div class="col-md-4 no-gutters animate-box" data-animate-effect="fadeInLeft">
+									<div title="Started realizing our vision of sustainability"><a href="#" class="steps">
+										<p class="icon"><span><i class="icon-check"></i></span></p>
+										<h3>2020</h3>
+									</a></div>
+								</div>
+								<div class="col-md-4 no-gutters animate-box" data-animate-effect="fadeInLeft">
+									<div title="Expanded to Gurugram"><a href="#" class="steps">
+										<p class="icon"><span><i class="icon-check"></i></span></p>
+										<h3>2021</h3>
+									</a></div>
 								</div>
 							</div>
 						</div>
@@ -167,12 +213,12 @@
 				</div>
 			</div>
 			
-			<div class="colorlib-services">
+			<div class="colorlib-services" id="brands">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">What I do?</span>
-							<h2 class="colorlib-heading">Here are some of my expertise</h2>
+							<span class="heading-meta">What we do?</span>
+							<h2 class="colorlib-heading">Here are our brands</h2>
 						</div>
 					</div>
 					<div class="row">
@@ -271,23 +317,23 @@
 					<div class="row">
 						<div class="col-md-3 text-center animate-box">
 							<span class="icon"><i class="flaticon-skyline"></i></span>
-							<span class="colorlib-counter js-counter" data-from="0" data-to="1539" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projects</span>
+							<span class="colorlib-counter js-counter" data-from="0" data-to="900" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Visits</span>
 						</div>
 						<div class="col-md-3 text-center animate-box">
 							<span class="icon"><i class="flaticon-engineer"></i></span>
-							<span class="colorlib-counter js-counter" data-from="0" data-to="3653" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Employees</span>
+							<span class="colorlib-counter js-counter" data-from="0" data-to="1320" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Handshakes</span>
 						</div>
 						<div class="col-md-3 text-center animate-box">
 							<span class="icon"><i class="flaticon-architect-with-helmet"></i></span>
-							<span class="colorlib-counter js-counter" data-from="0" data-to="5987" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Constructor</span>
+							<span class="colorlib-counter js-counter" data-from="0" data-to="501" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Alliances</span>
 						</div>
 						<div class="col-md-3 text-center animate-box">
 							<span class="icon"><i class="flaticon-worker"></i></span>
-							<span class="colorlib-counter js-counter" data-from="0" data-to="3999" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Partners</span>
+							<span class="colorlib-counter js-counter" data-from="0" data-to="523" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Companies served</span>
 						</div>
 					</div>
 				</div>
@@ -481,4 +527,3 @@
 
 	</body>
 </html>
-
